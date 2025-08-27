@@ -13,6 +13,10 @@ Le site vitrine permet de :
 - Naviguer sur mobile et desktop grâce à un design responsive et moderne.
 
 
+lien du site sur github :  https://dououbunlaye.github.io/site-soumara/
+makette du site : https://www.figma.com/design/jn020CSzr8Eu8aHy9KFfAN/Soumara-site?node-id=0-1&p=f&t=dsGTaB6uFtXlwdEU-0
+le depote github : https://github.com/doudouabdoulaye/site_soumara
+
 ## Installation / Lancement
 1. Cloner le projet :  
 ```bash
