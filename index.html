@@ -10,43 +10,48 @@
 </head>
 <body>
     <!-- Debut Header -->
-   <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container position-relative d-flex align-items-center justify-content-between">
+   <header id="header" class="header d-flex align-items-center sticky-top bg-white shadow-sm">
+  <div class="container d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <h1 class="sitename">Soumara</h1>
-        <span>.</span>
-      </a>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero">Acceuil<br></a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li class="dropdown"><a href="#"><span>Nos Menu</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Menue1</a></li>
-              <li class="dropdown"><a href="#"><span>Les Menus</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Menue 1</a></li>
-                  <li><a href="#">Menue 2</a></li>
-                  <li><a href="#">Menue 3</a></li>
-                  <li><a href="#">Menue 4</a></li>
-                  <li><a href="#">Menue 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Menue 2</a></li>
-              <li><a href="#">Menue 3</a></li>
-              <li><a href="#">Menue 4</a></li>
+    <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0 text-dark">
+      <h1 class="sitename m-0">Soumara</h1><span class="text-dark">.</span>
+    </a>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list fs-1 text-dark"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-dark" href="#hero">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#about">À propos</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#gallery">Galerie</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Nos Menus
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Menu 1</a></li>
+              <li><a class="dropdown-item" href="#">Menu 2</a></li>
+              <li><a class="dropdown-item" href="#">Menu 3</a></li>
+              <li><a class="dropdown-item" href="#">Menu 4</a></li>
+              <li><a class="dropdown-item" href="#">Menu 5</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Contact</a></li>
+
+          <li class="nav-item"><a class="nav-link text-dark" href="#contact">Contact</a></li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-    </div>
-  </header>
+      </div>
+    </nav>
+
+  </div>
+</header>
   <!-- Fin Header -->
    <!-- Debut Section Hero -->
     <section id="hero" class="hero section light-background">
@@ -655,7 +660,7 @@ Brochettes de bœuf mariné, servi avec riz et salade
       <script src="js/bootstrap.bundle.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/main.js"></script>
-   
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   
 </body>
 </html>
